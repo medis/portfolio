@@ -13,7 +13,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background: url(img/bg.png) repeat 0 0;
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -49,6 +49,10 @@
                 font-size: 84px;
             }
 
+            .subtitle {
+                font-size: 42px;
+            }
+
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -79,15 +83,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Audrius Bukauskas
+                </div>
+                <div class="subtitle m-b-md">
+                    portfolio coming soon ...
                 </div>
 
+                <p class="m-b-md"><strong>Say hello:</strong> hello at audrius dot io</p>
+
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://www.drupal.org/u/audriusb" target="_blank">Drupal</a>
+                    <a href="https://github.com/medis" target="_blank">Github</a>
                 </div>
             </div>
         </div>

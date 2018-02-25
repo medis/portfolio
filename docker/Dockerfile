@@ -38,7 +38,9 @@ RUN chmod +x /usr/local/bin/confd \
     && /usr/local/bin/composer-installer \
     && mv composer.phar /usr/local/bin/composer \
     && chmod +x /usr/local/bin/composer \
-    && composer --version
+    && composer --version \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Copy the application
 COPY . /var/www/html

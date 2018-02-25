@@ -5,14 +5,11 @@ networks:
 
 services:
   app:
-    image: laravel-www
-    container_name: laravel-www
+    image: audriusbuk/portfolio
+    container_name: portfolio
     build:
       context: .
       dockerfile: docker/Dockerfile
-    depends_on:
-      - redis
-      - mysql
     env_file:
       - .docker.env
     volumes:
