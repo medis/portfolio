@@ -9,6 +9,7 @@ docker build -f docker/Dockerfile -t \
     audriusbuk/portfolio:$tag .
 
 if [ "$tag" != "latest" ]
+then
     docker tag audriusbuk/portfolio:$tag audriusbuk/portfolio:latest
 fi
 
